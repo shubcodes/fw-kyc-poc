@@ -1,1 +1,22 @@
-# fw-kyc-poc
+# FIREWORKS Identity Verification PoC
+
+## Objective
+To create an end-to-end PoC solution for Identity Verification using Firework AI’s platform and APIs along with other tools.
+
+## Approaches
+
+### 1. Direct LLM Approach
+- Used FireLLaVA-13b for extracting data from images.
+- Observed issues with hallucinations and inconsistency.
+
+### 2. Tesseract OCR Preprocessing
+- Implemented Tesseract OCR for text extraction.
+- Results were gibberish and not usable.
+
+### 3. GCP Document AI Preprocessing
+- Used GCP Document AI for extracting text from documents.
+- Received raw text, which required further processing.
+
+### 4. Combining GCP Document AI with Firework Text Model
+- Processed the raw text using Fireworks mixtral-8x22b-instruct model.
+- Achieved better accuracy and consistency.
