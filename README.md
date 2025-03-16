@@ -1,5 +1,4 @@
 # FIREWORKS Identity Verification PoC
-### DEMO ATTACHED: [Watch the Loom Video](https://www.loom.com/share/2897fde24a444ae3ab1ac41a48a26cad?sid=50748ea6-f124-4481-8765-6fe7bf8df11f)
 
 
 ## Objective
